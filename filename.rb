@@ -1,6 +1,7 @@
-class Stuff
-    attr_reader :name
-    def initialize(source)
+class Magic
+    attr_reader :name, :fire
+    def initialize(magicician)
         @name = name
+        @fire = fire
     end
 end
